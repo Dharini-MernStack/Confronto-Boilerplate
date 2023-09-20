@@ -114,8 +114,7 @@ To acquire the number of items in the compare stack on the Compare link, you’l
 
  
 
-# Notes for Component: 
-# <Catalog />
+ **Notes for Component: <Catalog />**
 
 The catalog component renders product cards that display the image, model and brand name.  
 
@@ -146,7 +145,7 @@ For rendering the image, import the getImage() function from the /src/server mod
   
 
 # Notes for Component: 
-# <Compare />
+!*<Compare />*!
 
 This component renders a horizontally scrolling tabular grid of products that are selected for comparison. The intent is to let the user compare specifications easily. 
 
