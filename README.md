@@ -99,7 +99,8 @@ This project is pre-configured with the Redux-Thunk middleware, so you can build
 Async action creators for the catalog include initCatalog() which should fetch products from the API and dispatch the INITIALIZE_CATALOG action. On the other hand, for fetching details of a product, the productDetails() action creator is used. Please ensure you name the functions as mentioned.
 Async action creators for the compare feature include addToCompare() which should fetch product details from the API and dispatch the ADD_TO_COMPARE action. On the other hand, for removing products from the stack, the removeFromCompare() action creator function should be used, which should dispatch the REMOVE_FROM_COMPARE action.
 
-# Notes for Component: <App />
+# Notes for Component: 
+# <App />
 
 The App Component represents the main component which composes together other components in the application and also implements state management.  
 
@@ -112,7 +113,8 @@ To acquire the number of items in the compare stack on the Compare link, you’l
 
  
 
-# Notes for Component: <Catalog />
+# Notes for Component: 
+# <Catalog />
 
 The catalog component renders product cards that display the image, model and brand name.  
 
@@ -120,7 +122,8 @@ When this component loads up as well as when the contents of the products array 
 For rendering the product cards, use the ProductCard component.
  
 
-# Notes for Component: <ProductCard />
+# Notes for Component:
+# <ProductCard />
 
 This component renders a card that displays the image, model and brand name of a mobile phone. 
 
@@ -131,7 +134,8 @@ For rendering the image, import the getImage() function from the /src/server mod
  
 
  
-# Notes for Component: <Product />
+# Notes for Component: 
+# <Product />
 
 This component displays details of the product when the user browses to /product/<id> where <id> is the unique id of every product as received from the API. 
 
@@ -140,7 +144,8 @@ Dispatch the productDetails() action creator with the id value to fetch details 
 For rendering the image, import the getImage() function from the /src/server module | import {getImage} from “../server” and invoke it when setting the image source, passing in the value of ‘image’ as received in the selected state object.
   
 
-# Notes for Component: <Compare />
+# Notes for Component: 
+# <Compare />
 
 This component renders a horizontally scrolling tabular grid of products that are selected for comparison. The intent is to let the user compare specifications easily. 
 
