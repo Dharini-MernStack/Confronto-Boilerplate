@@ -1,6 +1,7 @@
 # Confronto-Boilerplate
 
 # Expended end output
+
 1. The app opens with the home screen as shown below:
  ![expected op](https://github.com/Dharini-MernStack/Confronto-Boilerplate/assets/76996610/08b9e4cc-d52a-4179-b72d-cc71a1ca6313)
 
